@@ -1,0 +1,33 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+
+# Local config / secrets
+opik_config.json
+.env
+
+# Raw exports
+conversations.jsonl
+conversations_summary.csv
+turns_flat.csv
+customer_1_conversations.jsonl
+customer_1_turns.csv
+conversation_experience.csv
+customer_experience_ranking.csv
+customer_personas.csv
+top20_bad_cases.csv
+
+# Generated dashboards and detail pages
+analysis_dashboard.html
+analysis_dashboard_qe.html
+analysis_dashboard_prod.html
+conversation_details/
+conversation_details_qe/
+conversation_details_prod/
+bad_case_details/
+log_chat.html
+log_chat_data.js
+
+# Local environment snapshots
+env_data/
