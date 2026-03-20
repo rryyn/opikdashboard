@@ -1,1 +1,6 @@
+# Core dependency for exporting traces from Opik
 opik
+
+# Notes:
+# - tkinter is used by a local helper app but comes from the Python stdlib
+# - the dashboard generator itself uses only stdlib modules
